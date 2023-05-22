@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/aac07238c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <div class="main">
+      <header><h1>Shopping List</h1></header>
+      <form>
+        <input type="text" class="list-input" />
+        <button class="list-button">
+          <i class="fa-solid fa-square-plus" style="color: white"></i>
+        </button>
+        <div class="select">
+          <select name="lists" class="filter-list">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+          </select>
+        </div>
+      </form>
+      <div class="list-container">
+        <ul class="shopping-list"></ul>
+      </div>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
