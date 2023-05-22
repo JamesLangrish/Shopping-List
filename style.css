@@ -23,8 +23,8 @@ body {
 
 header {
   font-size: 1.5rem;
-  background-color: #0000ff;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: rgba(255, 255, 255, 0.95);
 }
 
 header,
@@ -142,12 +142,25 @@ select {
     width: 100%;
   }
 
+  h1 {
+    font-size: 1.5rem;
+  }
+
   .main {
     flex-direction: row;
   }
 
+  .list-input {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+  }
+
   input {
-    width: 30%;
+    width: 50%;
     font-size: 0.5rem;
+  }
+
+  .select {
+    width: 22%;
   }
 }
